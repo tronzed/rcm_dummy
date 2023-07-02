@@ -1,0 +1,143 @@
+AOS.init();
+
+$('#banner_id').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:1,
+    dots:0,
+    autoplay:1,
+    autoplayTimeout:5000,
+    autoplaySpeed:2000,
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+$('#trending_products_carousel').owlCarousel({
+    loop:1,
+    margin:10,
+    nav:1,
+    dots:0,
+    autoplay:1,
+    autoplayTimeout:5000,
+    autoplaySpeed:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+$('#featured_products_carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:1,
+    dots:0,
+    autoplay:1,
+    autoplayTimeout:5000,
+    autoplaySpeed:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+$('#brand_carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:1,
+    dots:0,
+    autoplay:1,
+    autoplayTimeout:3000,
+    autoplaySpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:7
+        }
+    }
+});
+$('#promotions_left_carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:1,
+    dots:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+$('#promotions_right_carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:1,
+    dots:0,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+$('#categories_carousel').owlCarousel({
+    loop:true,
+    margin:15,
+    nav:1,
+    dots:0,
+    autoplay:1,
+    autoplayTimeout:5000,
+    autoplaySpeed:2000,
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        800:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
